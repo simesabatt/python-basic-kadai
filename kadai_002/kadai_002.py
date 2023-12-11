@@ -12,7 +12,6 @@ main_text = soup.find('div', class_='main_text')
 main_text = main_text.get_text()
 # print(main_text)
 
-import re
 main_text = re.sub(r"[\u3000 \n \r]", "", main_text)
 # print(main_text)
 
